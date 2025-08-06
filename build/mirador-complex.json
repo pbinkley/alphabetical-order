@@ -53,13 +53,14 @@
     {
       "view": "single",
       "id": "e",
-      "manifestId": "https://api.irht.cnrs.fr/ark:/63955/fp76vvcf6phr/manifest.json"
+      "manifestId": "https://api.irht.cnrs.fr/ark:/63955/fp76vvcf6phr/manifest.json",
+      "canvasId":   "https://arca.irht.cnrs.fr/iiif/101272/canvas/canvas-1293129"
     },
     {
       "view": "single",
       "id": "f",
       "manifestId": "https://api.irht.cnrs.fr/ark:/63955/fqtxlyzhzk6l/manifest.json",
-      "canvasId": "https://arca.irht.cnrs.fr/iiif/110543/canvas/canvas-1185441"
+      "canvasId": "https://arca.irht.cnrs.fr/iiif/110543/canvas/canvas-1185442"
     },
     {
       "view": "single",
