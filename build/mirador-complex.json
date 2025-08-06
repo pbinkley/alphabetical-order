@@ -48,7 +48,8 @@
     {
       "view": "single",
       "id": "d",
-      "manifestId": "https://digi.vatlib.it/iiif/bav_pal_lat_1773/manifest.json"
+      "manifestId": "https://digi.vatlib.it/iiif/bav_pal_lat_1773/manifest.json",
+      "canvasId": "https://digi.vatlib.it/iiif/bav_pal_lat_1773/canvas/p0005"
     },
     {
       "view": "single",
@@ -58,7 +59,8 @@
     {
       "view": "single",
       "id": "f",
-      "manifestId": "https://api.irht.cnrs.fr/ark:/63955/fqtxlyzhzk6l/manifest.json"
+      "manifestId": "https://api.irht.cnrs.fr/ark:/63955/fqtxlyzhzk6l/manifest.json",
+      "canvasId": "https://arca.irht.cnrs.fr/iiif/110543/canvas/canvas-1185441"
     },
     {
       "view": "single",
