@@ -22,9 +22,6 @@
       "manifestID": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item%3A883390/manifest"
     },
     {
-      "manifestID": "https://iiif.wellcomecollection.org/presentation/v2/b19646379"
-    },
-    {
       "manifestID": "https://sharedcanvas.be/IIIF/manifests/B_OB_MS555"
     }
   ],
@@ -43,7 +40,8 @@
     {
       "view": "single",
       "id": "c",
-      "manifestId": "https://tecabml.contentdm.oclc.org/iiif/info/plutei/491171/manifest.json"
+      "manifestId": "https://tecabml.contentdm.oclc.org/iiif/info/plutei/491171/manifest.json",
+      "canvasId": "https://cdm21059.contentdm.oclc.org/iiif/plutei:490822/canvas/c19"
     },
     {
       "view": "single",
@@ -65,17 +63,14 @@
     {
       "view": "single",
       "id": "g",
-      "manifestId": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item%3A883390/manifest"
+      "manifestId": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item%3A883390/manifest",
+      "canvasId": ""https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:883471/canvas/default"
     },
     {
       "view": "single",
       "id": "h",
-      "manifestId": "https://iiif.wellcomecollection.org/presentation/v2/b19646379"
-    },
-    {
-      "view": "single",
-      "id": "i",
-      "manifestId": "https://sharedcanvas.be/IIIF/manifests/B_OB_MS555"
+      "manifestId": "https://sharedcanvas.be/IIIF/manifests/B_OB_MS555",
+      "canvasId": "https://sharedcanvas.be/IIIF/manifests/B_OB_MS555/canvases/ac455113-d5cc-11eb-974d-e5b26b998351"
     }
   ],
   "workspace": {
@@ -85,19 +80,15 @@
         "first": "a",
         "second": "b",
         "third": "c",
+        "fourth": "d",
         "direction": "column"
       },
       "second": {
-          "first": "d",
-          "second": "e",
-          "third": "f",
+          "first": "e",
+          "second": "f",
+          "third": "g",
+          "fourth": "h",
           "direction": "column"
-      },
-      "third": {
-        "first": "g",
-        "second": "h",
-        "third": "i",
-        "direction": "column"
       },
       "splitPercentage": 33.33
     }
