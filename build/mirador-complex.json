@@ -80,21 +80,21 @@
       "direction": "row",
       "first": {
         "first": "a",
-        "second": "d",
+        "second": "b",
+        "third": "c",
         "direction": "column"
       },
       "second": {
-        "first": {
-          "first": "b",
+          "first": "d",
           "second": "e",
+          "third": "f",
           "direction": "column"
-        },
-        "second": {
-          "first": "c",
-          "second": "f",
-          "direction": "column"
-        },
-        "direction": "row"
+      },
+      "third": {
+        "first": "g",
+        "second": "h",
+        "third": "i",
+        "direction": "column"
       },
       "splitPercentage": 33.33
     }
