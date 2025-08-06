@@ -85,7 +85,7 @@ END;
 	$pd["extra_js"] .= ob_get_contents();
 	ob_end_clean(); // Don't send output to client
 
-	$d = positionExtraContent ($d, '<div class="row" style="padding-left:16px;padding-right:16px;"><div class="col-12 col-lg-12"><div style="height:500px;position:relative;min-width:324px;" id="mirador"></div></div></div>'.$codeHTML);
+	$d = positionExtraContent ($d, '<div class="row" style="padding-left:16px;padding-right:16px;"><div class="col-12 col-lg-12"><div style="height:800px;position:relative;min-width:324px; width: 99.225vw; position: relative;" id="mirador"></div></div></div>'.$codeHTML);
 
   return (array("d" => $d, "pd" => $pd));
   }
