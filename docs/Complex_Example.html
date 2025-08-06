@@ -211,21 +211,21 @@
             &quot;direction&quot;: &quot;row&quot;,
             &quot;first&quot;: {
                 &quot;first&quot;: &quot;a&quot;,
-                &quot;second&quot;: &quot;d&quot;,
+                &quot;second&quot;: &quot;b&quot;,
+                &quot;third&quot;: &quot;c&quot;,
                 &quot;direction&quot;: &quot;column&quot;
             },
             &quot;second&quot;: {
-                &quot;first&quot;: {
-                    &quot;first&quot;: &quot;b&quot;,
-                    &quot;second&quot;: &quot;e&quot;,
-                    &quot;direction&quot;: &quot;column&quot;
-                },
-                &quot;second&quot;: {
-                    &quot;first&quot;: &quot;c&quot;,
-                    &quot;second&quot;: &quot;f&quot;,
-                    &quot;direction&quot;: &quot;column&quot;
-                },
-                &quot;direction&quot;: &quot;row&quot;
+                &quot;first&quot;: &quot;d&quot;,
+                &quot;second&quot;: &quot;e&quot;,
+                &quot;third&quot;: &quot;f&quot;,
+                &quot;direction&quot;: &quot;column&quot;
+            },
+            &quot;third&quot;: {
+                &quot;first&quot;: &quot;g&quot;,
+                &quot;second&quot;: &quot;h&quot;,
+                &quot;third&quot;: &quot;i&quot;,
+                &quot;direction&quot;: &quot;column&quot;
             },
             &quot;splitPercentage&quot;: 33.33
         }
@@ -269,7 +269,7 @@ var myMiradorInstance = Mirador.viewer({
        windows: [{"view":"single","id":"a","manifestId":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fs7y7ksapq66\/manifest.json"},{"view":"single","id":"b","manifestId":"https:\/\/gallica.bnf.fr\/iiif\/ark:\/12148\/btv1b525012566\/manifest.json"},{"view":"single","id":"c","manifestId":"https:\/\/tecabml.contentdm.oclc.org\/iiif\/info\/plutei\/491171\/manifest.json"},{"view":"single","id":"d","manifestId":"https:\/\/digi.vatlib.it\/iiif\/bav_pal_lat_1773\/manifest.json"},{"view":"single","id":"e","manifestId":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fp76vvcf6phr\/manifest.json"},{"view":"single","id":"f","manifestId":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fqtxlyzhzk6l\/manifest.json"},{"view":"single","id":"g","manifestId":"https:\/\/digitalcollections.universiteitleiden.nl\/iiif_manifest\/item%3A883390\/manifest"},{"view":"single","id":"h","manifestId":"https:\/\/iiif.wellcomecollection.org\/presentation\/v2\/b19646379"},{"view":"single","id":"i","manifestId":"https:\/\/sharedcanvas.be\/IIIF\/manifests\/B_OB_MS555"}],
        manifests: [],
        "catalog": [{"manifestID":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fs7y7ksapq66\/manifest.json"},{"manifestID":"https:\/\/gallica.bnf.fr\/iiif\/ark:\/12148\/btv1b525012566\/manifest.json"},{"manifestID":"https:\/\/tecabml.contentdm.oclc.org\/iiif\/info\/plutei\/491171\/manifest.json"},{"manifestID":"https:\/\/digi.vatlib.it\/iiif\/bav_pal_lat_1773\/manifest.json"},{"manifestID":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fp76vvcf6phr\/manifest.json"},{"manifestID":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fqtxlyzhzk6l\/manifest.json"},{"manifestID":"https:\/\/digitalcollections.universiteitleiden.nl\/iiif_manifest\/item%3A883390\/manifest"},{"manifestID":"https:\/\/iiif.wellcomecollection.org\/presentation\/v2\/b19646379"},{"manifestID":"https:\/\/sharedcanvas.be\/IIIF\/manifests\/B_OB_MS555"}],
-       workspace: {"layout":{"direction":"row","first":{"first":"a","second":"d","direction":"column"},"second":{"first":{"first":"b","second":"e","direction":"column"},"second":{"first":"c","second":"f","direction":"column"},"direction":"row"},"splitPercentage":33.33}}
+       workspace: {"layout":{"direction":"row","first":{"first":"a","second":"b","third":"c","direction":"column"},"second":{"first":"d","second":"e","third":"f","direction":"column"},"third":{"first":"g","second":"h","third":"i","direction":"column"},"splitPercentage":33.33}}
        });     
      });
 		
