@@ -29,7 +29,8 @@
     {
       "view": "single",
       "id": "a",
-      "manifestId": "https://api.irht.cnrs.fr/ark:/63955/fs7y7ksapq66/manifest.json"
+      "manifestId": "https://api.irht.cnrs.fr/ark:/63955/fs7y7ksapq66/manifest.json",
+      "canvasId": "https://arca.irht.cnrs.fr/iiif/102151/canvas/canvas-1307066"
     },
     {
       "view": "single",
