@@ -37,7 +37,8 @@
     {
       "view": "single",
       "id": "b",
-      "manifestId": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525012566/manifest.json"
+      "manifestId": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525012566/manifest.json",
+      "canvasId": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525012566/canvas/f9"
     },
     {
       "view": "single",
