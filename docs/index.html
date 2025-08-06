@@ -16,7 +16,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/highlight.js@11.2.0/styles/github.css" integrity="sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY=" crossorigin="anonymous" rel="stylesheet" type="text/css">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
     <style>
-    
+    .fixed-top {z-index:1111;}
     </style>
     
   </head>
@@ -60,42 +60,120 @@
 					
 <!-- Start SimpleBDGrid -->
 <div class="p-2 bg-light border rounded-3 jumbotron">
-      <div class="container-fluid py-2"><h3 style="margin-bottom:0px;">National Gallery - <b>Simple Mirador</b> Example</h3></div></div><div class="container-fluid "><div class="row h-100"><div class="col-12">							
+      <div class="container-fluid py-2"><h3 style="margin-bottom:0px;">Alphabetical Order in the European Middle Ages Day</h3></div></div><div class="container-fluid "><div class="row h-100"><div class="col-12">							
 								<div class="h-100 d-flex flex-column">
 							
-						</div></div><!--/span--></div></div><!--/row-->    <div class="container-fluid "><div class="row h-100"><div class="col-lg-6 col-md-6 col-sm-12  col-xs-12">							
+						</div></div><!--/span--></div></div><!--/row-->    <div class="container-fluid "><div class="row h-100"><div class="col-12 flex-grow-1">							
 								<div class="h-100 d-flex flex-column">
-							<p>This project is based on a simple copy of the <a href='https://github.com/jpadfield/simple-site'>simple-site</a> repository. It has been set up to provide a dedicated example of using the system to view <a href='https://iiif.io'>IIIF</a> manifests within the IIIF Image viewer <a href='https://projectmirador.org/'>Mirador</a>.</p>
+							<p>This extension uses the <a href='https://iiif.io'>IIIF</a> image viewer <a href='https://projectmirador.org/'>Mirador</a> to produce a customised presentation of a bespoke selection of IIIF manifests<sup><a id="ref1" href="#section1">[1]</a></sup>. It is an example of a special page that can be added and presented using the <a href='https://github.com/jpadfield/simple-site'>simple-site</a> project.</p>
 
-<div class="alert alert-info" role="alert"><h4 class="alert-heading">Instructions</h4><p>Full details and instructions relating to how this system works can be found in the <a href='https://jpadfield.github.io/simple-site/'>simple-site</a> project webpages.</p><p>Four example pages have been provided, to demonstrate the presentation of IIIF resources using this system.</p><div class="row">
-<div class="col-6 col-lg-6" style="text-align:center;">
-	<a class="btn btn-outline-primary nav-button btn-block" id="button1" role="button" href="Standard_Example.html">
-	Standard Example
-</a></div>
-<div class="col-6 col-lg-6" style="text-align:center;">
-	<a class="btn btn-outline-primary nav-button btn-block" id="button2" role="button" href="Simple_Example.html">
-	Simple Example
-</a></div>
-</div>
-<br/>
-<div class="row">
-<div class="col-6 col-lg-6"  style="text-align:center;">
-	<a class="btn btn-outline-primary nav-button btn-block" id="button3" role="button" href="Simple_Text_Example.html">
-	Simple Text Example
-</a></div>
-<div class="col-6 col-lg-6"  style="text-align:center;">
-	<a class="btn btn-outline-primary nav-button btn-block" id="button4" role="button" href="Complex_Example.html">
-	Complex Example
-</a></div>
-</div></div>
+<p><b>For more information about the simple-site project and details about how this example work please see the <a href='https://jpadfield.github.io/simple-site/'>simple-site webpages</a>.</b></p>
 
-<h3>Acknowledgement</h3>
-<p>This specific project was prepared and tested as part of:</p>
-<h4>The AHRC Funded <a href='https://tanc-ahrc.github.io/IIIF-TNC'>IIIF - TANC</a> project</h4>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/jpadfield/simple-site/blob/master/docs/graphics/TANC%20-%20IIIF.png"><img height="64" src="https://github.com/jpadfield/simple-site/raw/master/docs/graphics/TANC%20-%20IIIF.png" alt="IIIF - TNC" style="max-width:100%;"></a></p><div class="foonote"><ul></ul></div>
-						</div></div><!--/span--><div class="col-lg-6 col-md-6 col-sm-12  col-xs-12">							
+<div class="alert alert-info" role="alert"><h4 class="alert-heading">Summary</h4><p>This complex example page has been created using all of the available options in the <a href='https://jpadfield.github.io/simple-site/Mirador_IIIF_viewer.html'>mirador JSON file</a>.</p></div>
+
+<h3>The Viewer</h3>
+<div class="row" style="padding-left:16px;padding-right:16px;"><div class="col-12 col-lg-12"><div style="height:500px;position:relative;min-width:324px;" id="mirador"></div></div></div><div class="foonote"><hr/><ul><li id="section1"><a href="#ref1">[1]</a> IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see <a href='https://iiif.io/api/presentation/2.1/#table-of-contents'>https://iiif.io/api/presentation/2.1/#table-of-contents</a></li></ul></div>
+						</div></div><!--/span--></div></div><!--/row-->    <div class="container-fluid "><div class="row h-100"><div class="col-12 col-lg-12">							
 								<div class="h-100 d-flex flex-column">
-							<figure class="figure"><img src="https://media.ng-london.org.uk/iiif/009-01DZ-0000/full/512,/0/default.jpg" class="figure-img img-fluid rounded" alt="Hans Holbein the Younger, Jean de Dinteville and Georges de Selve ('The Ambassadors')."><figcaption class="figure-caption">Hans Holbein the Younger, Jean de Dinteville and Georges de Selve ('The Ambassadors') © The National Gallery, London. Bought, 1890. This image is licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC-BY-NC-ND 4.0</a>, presented via a IIIF server.</figcaption></figure><div class="foonote"><ul></ul></div>
+								<hr/>
+	<details>
+	<summary>Display the full code used to define this page.</summary>
+	<br/>
+		<h3>Page JSON Object</h3>
+	<figure>
+		<pre class="json-renderer" style="overflow-y: auto;overflow-x: auto; border: 2px solid black;padding: 10px;max-height:400px;"><code>{
+    &quot;parent&quot;: &quot;&quot;,
+    &quot;class&quot;: &quot;mirador&quot;,
+    &quot;file&quot;: &quot;mirador-complex.json&quot;,
+    &quot;title&quot;: &quot;Alphabetical Order in the European Middle Ages Day&quot;,
+    &quot;content&quot;: &quot;&lt;p&gt;This extension uses the [IIIF|https://iiif.io] image viewer [Mirador|https://projectmirador.org/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https://iiif.io/api/presentation/2.1/#table-of-contents]. It is an example of a special page that can be added and presented using the [simple-site|https://github.com/jpadfield/simple-site] project.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;b&gt;For more information about the simple-site project and details about how this example work please see the [simple-site webpages|https://jpadfield.github.io/simple-site/].&lt;/b&gt;&lt;/p&gt;\r\n\r\n&lt;div class=\&quot;alert alert-info\&quot; role=\&quot;alert\&quot;&gt;&lt;h4 class=\&quot;alert-heading\&quot;&gt;Summary&lt;/h4&gt;&lt;p&gt;This complex example page has been created using all of the available options in the [mirador JSON file|https://jpadfield.github.io/simple-site/Mirador_IIIF_viewer.html].&lt;/p&gt;&lt;/div&gt;\r\n\r\n&lt;h3&gt;The Viewer&lt;/h3&gt;\r\n[##]&quot;,
+    &quot;content right&quot;: &quot;&quot;,
+    &quot;copy&quot;: true,
+    &quot;displaycode&quot;: true
+}</code></pre>
+		<figcaption class="figure-caption">The complete JSON object used to define this content and layout of this page.</figcaption>
+	</figure>		<h3>Extra extension file</h3>
+	<figure>
+		<pre class="json-renderer" style="overflow-y: auto;overflow-x: auto; border: 2px solid black;padding: 10px;max-height:400px;"><code>{
+    &quot;catalog&quot;: [
+        {
+            &quot;manifestID&quot;: &quot;https://api.irht.cnrs.fr/ark:/63955/fs7y7ksapq66/manifest.json&quot;
+        },
+        {
+            &quot;manifestID&quot;: &quot;https://gallica.bnf.fr/iiif/ark:/12148/btv1b525012566/manifest.json&quot;
+        },
+        {
+            &quot;manifestID&quot;: &quot;https://tecabml.contentdm.oclc.org/iiif/info/plutei/491171/manifest.json&quot;
+        },
+        {
+            &quot;manifestID&quot;: &quot;https://digi.vatlib.it/iiif/bav_pal_lat_1773/manifest.json&quot;
+        },
+        {
+            &quot;manifestID&quot;: &quot;https://api.irht.cnrs.fr/ark:/63955/fp76vvcf6phr/manifest.json&quot;
+        },
+        {
+            &quot;manifestID&quot;: &quot;https://api.irht.cnrs.fr/ark:/63955/fqtxlyzhzk6l/manifest.json&quot;
+        },
+        {
+            &quot;manifestID&quot;: &quot;https://digitalcollections.universiteitleiden.nl/iiif_manifest/item%3A883390/manifest&quot;
+        },
+        {
+            &quot;manifestID&quot;: &quot;https://sharedcanvas.be/IIIF/manifests/B_OB_MS555&quot;
+        }
+    ],
+    &quot;windows&quot;: [
+        {
+            &quot;view&quot;: &quot;single&quot;,
+            &quot;id&quot;: &quot;a&quot;,
+            &quot;manifestId&quot;: &quot;https://api.irht.cnrs.fr/ark:/63955/fs7y7ksapq66/manifest.json&quot;
+        },
+        {
+            &quot;view&quot;: &quot;single&quot;,
+            &quot;id&quot;: &quot;b&quot;,
+            &quot;manifestId&quot;: &quot;https://gallica.bnf.fr/iiif/ark:/12148/btv1b525012566/manifest.json&quot;,
+            &quot;canvasId&quot;: &quot;https://gallica.bnf.fr/iiif/ark:/12148/btv1b525012566/canvas/f9&quot;
+        },
+        {
+            &quot;view&quot;: &quot;single&quot;,
+            &quot;id&quot;: &quot;c&quot;,
+            &quot;manifestId&quot;: &quot;https://tecabml.contentdm.oclc.org/iiif/info/plutei/491171/manifest.json&quot;,
+            &quot;canvasId&quot;: &quot;https://cdm21059.contentdm.oclc.org/iiif/plutei:490822/canvas/c19&quot;
+        },
+        {
+            &quot;view&quot;: &quot;single&quot;,
+            &quot;id&quot;: &quot;d&quot;,
+            &quot;manifestId&quot;: &quot;https://digi.vatlib.it/iiif/bav_pal_lat_1773/manifest.json&quot;,
+            &quot;canvasId&quot;: &quot;https://digi.vatlib.it/iiif/bav_pal_lat_1773/canvas/p0005&quot;
+        },
+        {
+            &quot;view&quot;: &quot;single&quot;,
+            &quot;id&quot;: &quot;e&quot;,
+            &quot;manifestId&quot;: &quot;https://api.irht.cnrs.fr/ark:/63955/fp76vvcf6phr/manifest.json&quot;
+        },
+        {
+            &quot;view&quot;: &quot;single&quot;,
+            &quot;id&quot;: &quot;f&quot;,
+            &quot;manifestId&quot;: &quot;https://api.irht.cnrs.fr/ark:/63955/fqtxlyzhzk6l/manifest.json&quot;,
+            &quot;canvasId&quot;: &quot;https://arca.irht.cnrs.fr/iiif/110543/canvas/canvas-1185441&quot;
+        },
+        {
+            &quot;view&quot;: &quot;single&quot;,
+            &quot;id&quot;: &quot;g&quot;,
+            &quot;manifestId&quot;: &quot;https://digitalcollections.universiteitleiden.nl/iiif_manifest/item%3A883390/manifest&quot;,
+            &quot;canvasId&quot;: &quot;https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:883471/canvas/default&quot;
+        },
+        {
+            &quot;view&quot;: &quot;single&quot;,
+            &quot;id&quot;: &quot;h&quot;,
+            &quot;manifestId&quot;: &quot;https://sharedcanvas.be/IIIF/manifests/B_OB_MS555&quot;,
+            &quot;canvasId&quot;: &quot;https://sharedcanvas.be/IIIF/manifests/B_OB_MS555/canvases/ac455113-d5cc-11eb-974d-e5b26b998351&quot;
+        }
+    ],
+    &quot;layout&quot;: &quot;2x4&quot;
+}</code></pre>
+		<figcaption class="figure-caption">The complete extension file used to define extra content included in this page.</figcaption>
+	</figure>	
+	</details>
 						</div></div><!--/span--></div></div><!--/row-->    
 <!-- End SimpleBDGrid -->
 
@@ -122,8 +200,18 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha256-d+FygkWgwt59CFkWPuCB4RE6p1/WiUYCy16w1+c5vKk=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/jquery.json-viewer@1.4.0/json-viewer/jquery.json-viewer.js" integrity="sha256-klSHtWPkZv4zG4darvDEpAQ9hJFDqNbQrM+xDChm8Fo=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/mirador@3.2.0/dist/mirador.min.js" integrity="sha256-e11UQD1U7ifc8OK9X0rVMshTXSKl7MafRxi3PTwXDHs=" crossorigin="anonymous"></script>
 	<script>
-		
+			$(function() {
+
+var myMiradorInstance = Mirador.viewer({
+       id: "mirador",
+       windows: [{"view":"single","id":"a","manifestId":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fs7y7ksapq66\/manifest.json"},{"view":"single","id":"b","manifestId":"https:\/\/gallica.bnf.fr\/iiif\/ark:\/12148\/btv1b525012566\/manifest.json","canvasId":"https:\/\/gallica.bnf.fr\/iiif\/ark:\/12148\/btv1b525012566\/canvas\/f9"},{"view":"single","id":"c","manifestId":"https:\/\/tecabml.contentdm.oclc.org\/iiif\/info\/plutei\/491171\/manifest.json","canvasId":"https:\/\/cdm21059.contentdm.oclc.org\/iiif\/plutei:490822\/canvas\/c19"},{"view":"single","id":"d","manifestId":"https:\/\/digi.vatlib.it\/iiif\/bav_pal_lat_1773\/manifest.json","canvasId":"https:\/\/digi.vatlib.it\/iiif\/bav_pal_lat_1773\/canvas\/p0005"},{"view":"single","id":"e","manifestId":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fp76vvcf6phr\/manifest.json"},{"view":"single","id":"f","manifestId":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fqtxlyzhzk6l\/manifest.json","canvasId":"https:\/\/arca.irht.cnrs.fr\/iiif\/110543\/canvas\/canvas-1185441"},{"view":"single","id":"g","manifestId":"https:\/\/digitalcollections.universiteitleiden.nl\/iiif_manifest\/item%3A883390\/manifest","canvasId":"https:\/\/digitalcollections.universiteitleiden.nl\/iiif_manifest\/item:883471\/canvas\/default"},{"view":"single","id":"h","manifestId":"https:\/\/sharedcanvas.be\/IIIF\/manifests\/B_OB_MS555","canvasId":"https:\/\/sharedcanvas.be\/IIIF\/manifests\/B_OB_MS555\/canvases\/ac455113-d5cc-11eb-974d-e5b26b998351"}],
+       manifests: [],
+       "catalog": [{"manifestID":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fs7y7ksapq66\/manifest.json"},{"manifestID":"https:\/\/gallica.bnf.fr\/iiif\/ark:\/12148\/btv1b525012566\/manifest.json"},{"manifestID":"https:\/\/tecabml.contentdm.oclc.org\/iiif\/info\/plutei\/491171\/manifest.json"},{"manifestID":"https:\/\/digi.vatlib.it\/iiif\/bav_pal_lat_1773\/manifest.json"},{"manifestID":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fp76vvcf6phr\/manifest.json"},{"manifestID":"https:\/\/api.irht.cnrs.fr\/ark:\/63955\/fqtxlyzhzk6l\/manifest.json"},{"manifestID":"https:\/\/digitalcollections.universiteitleiden.nl\/iiif_manifest\/item%3A883390\/manifest"},{"manifestID":"https:\/\/sharedcanvas.be\/IIIF\/manifests\/B_OB_MS555"}],
+       
+       });     
+     });
 		
 		function onLoad() {
 			hljs.highlightAll();			
