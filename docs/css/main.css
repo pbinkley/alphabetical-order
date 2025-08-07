@@ -153,9 +153,8 @@ details[open] summary {
 #ms-table th, td {
   border: 1px solid;
   border-collapse: collapse;
-  margin: 1em;
+  padding: 1em;
   vertical-align: top;
-
 }
 
 #ms-table {
