@@ -992,8 +992,14 @@ END;
 		<meta name="keywords" content="$pageDetails[metaKeywords]" />
     <meta name="author" content="$pageDetails[metaAuthor]" />
     <meta name="image" content="$pageDetails[metaImage]" />
+		<meta property="og:title" content="$pageDetails[metaTitle]"/>
+		<meta property="og:image" content="https://pbinkley.github.io/alphabetical-order/graphics/pal-lat.png"/>
+		<meta property="og:description" content="$pageDetails[metaDescription]"/>
+		<meta property="og:url" content="https://pbinkley.github.io/alphabetical-order/graphics/pal-lat.png"/>
+		<meta property="og:image:width" content="691" />
+		<meta property="og:image:height" content="340" />
     <link rel="icon" href="$pageDetails[metaFavIcon]">
-    <title>$pageDetails[metaTitle] - $pageDetails[use]</title>
+    <title>$pageDetails[metaTitle]</title>
     $cssScripts
     <style>
     $pageDetails[extra_css]
