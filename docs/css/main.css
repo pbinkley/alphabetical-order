@@ -150,13 +150,13 @@ details[open] summary {
     margin-bottom: .5em;
 }
 
-#ms-table {
-  border: 1px solid;
-  border-collapse: collapse;
-}
-
 #ms-table th, td {
   border: 1px solid;
   border-collapse: collapse;
   margin: 5px; 
+}
+
+#ms-table {
+  border: 1px solid;
+  border-collapse: collapse;
 }
