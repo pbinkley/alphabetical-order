@@ -5,5 +5,12 @@
         "displaycode": false,
         "file": "mirador-complex.json",
         "title": "Alphabetical Order in the European Middle Ages Day"
+    },
+    "test": {
+        "class": "mirador",
+        "content": "<p>This is a page.</p>",
+        "file": "mirador-test.json",
+        "title": "Subpage test",
+        "parent": "home"
     }
 }
