@@ -48,10 +48,17 @@
 		  </a>
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault"><ul class="navbar-nav">
 
-<!-- Start Normal Item 1 -->
-<li class="nav-item "><a class="nav-link" style="white-space:nowrap;" href="home.html">Home</a>
+<!-- Start Loop Item 1 -->
+<li class="nav-item dropdown ">
+<div class="btn-group"><a href="home.html" class="nav-link" style="white-space:nowrap;" title="Click to open the &ldquo;Home&rdquo; page">
+  Home</a><button type="button" class="btn nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"  title="Click to open the &ldquo;Home&rdquo; menu">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+	<ul class="dropdown-menu"><li><a href="test.html" class="dropdown-item">Test</a></li>
+	</ul>
+</div>
 </li>
-<!-- End Normal Item 1 -->
+<!-- End Loop Item 1 -->
 </ul><span class="navbar-text w-100">			<a href="https://github.com/pbinkley/alphabetical-order/" class="float-end">
 				<img id="ex-logo1" class="logo" title="github" src="graphics/github%20logo%20white.png" 
 				style="" alt="GitHub pbinkley alphabetical-order"/>
